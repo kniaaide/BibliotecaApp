@@ -41,7 +41,7 @@
             if (!int.TryParse(partes[2], out int anio))
             {
                 throw new FormatException(
-                    $"El año \"{partes[2]}\" no es un número válido en la línea: \"{linea}\"");
+                    $"El año \"{partes[2]}\" no es un número válidoo en la línea: \"{linea}\"");
             }
 
             bool disponible = partes[3].Trim().Equals("Si", StringComparison.OrdinalIgnoreCase);
