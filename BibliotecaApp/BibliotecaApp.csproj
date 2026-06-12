@@ -8,4 +8,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\ameri\source\repos\BibliotecaApp\BibliotecaApp\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\ameri\source\repos\BibliotecaApp\BibliotecaApp\.editorconfig" />
+  </ItemGroup>
+
 </Project>
